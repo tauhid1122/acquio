@@ -128,3 +128,6 @@
 {"level":"info","message":"::1 - - [30/Nov/2025:13:21:01 +0000] \"GET /health HTTP/1.1\" 483 51 \"-\" \"HTTPie\"","service":"acquio-api","timestamp":"2025-11-30T13:21:01.459Z"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquio-api","timestamp":"2025-11-30T13:21:01.600Z","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [30/Nov/2025:13:21:01 +0000] \"GET /health HTTP/1.1\" 483 51 \"-\" \"HTTPie\"","service":"acquio-api","timestamp":"2025-11-30T13:21:01.602Z"}
+{"level":"info","message":"Hello from Acquio!","service":"acquio-api","timestamp":"2025-11-30T13:26:16.105Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Nov/2025:13:26:16 +0000] \"GET / HTTP/1.1\" 200 18 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0\"","service":"acquio-api","timestamp":"2025-11-30T13:26:16.116Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Nov/2025:13:26:16 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0\"","service":"acquio-api","timestamp":"2025-11-30T13:26:16.215Z"}
